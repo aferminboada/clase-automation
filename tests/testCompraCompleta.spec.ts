@@ -4,7 +4,7 @@ import { InventoryPage }       from '../page/InventoryPage';
 import { CartPage }            from '../page/CartPage';
 import { CheckoutPage }        from '../page/CheckoutPage';
 
-test('cancelar checkout: vuelve al carrito al cancelar el formulario de envío', async ({ page }) => {
+test('cancelar checkout: vuelve al inventario al cancelar en el resumen de orden', async ({ page }) => {
   const loginPage     = new SauceDemoLoginPage(page);
   const inventoryPage = new InventoryPage(page);
   const cartPage      = new CartPage(page);
@@ -15,9 +15,17 @@ test('cancelar checkout: vuelve al carrito al cancelar el formulario de envío',
   await loginPage.login('standard_user', 'secret_sauce');
   await page.waitForURL('**/inventory.html');
 
-  // ── AGREGAR PRODUCTO Y IR AL CARRITO ──────────
+  // ── AGREGAR 6 PRODUCTOS ───────────────────────
   await inventoryPage.addBackpack.click();
-  await inventoryPage.irAlCarrito();
+  await inventoryPage.addBoltTShirt.click();
+  await inventoryPage.addBikeLight.click();
+  await inventoryPage.addFleeceJacket.click();
+  await inventoryPage.addRedTShirt.click();
+  await inventoryPage.addOnesie.click();
+  await expect(inventoryPage.cartBadge).toHaveText('6');
+
+  // ── IR AL CARRITO ─────────────────────────────
+  await inventoryPage.cartLink.click();
   await page.waitForURL('**/cart.html');
 
   // ── IR AL CHECKOUT ────────────────────────────
@@ -25,7 +33,7 @@ test('cancelar checkout: vuelve al carrito al cancelar el formulario de envío',
   await page.waitForURL('**/checkout-step-one.html');
 
   // ── LLENAR FORMULARIO Y CONTINUAR ────────────
-  await checkoutPage.llenarDatos('anna', 'fermin', '1428');
+  await checkoutPage.llenarDatos('karen', 'Rodriguez', '1428');
   await page.waitForURL('**/checkout-step-two.html');
 
   // ── CANCELAR EN EL RESUMEN DE ORDEN ──────────

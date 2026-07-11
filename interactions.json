@@ -9,8 +9,8 @@
   },
   {
     "type": "click",
-    "id": "login_credentials",
-    "dataTest": "login-credentials",
+    "id": null,
+    "dataTest": null,
     "role": null,
     "tag": "div",
     "text": "Accepted usernames are:standard_userlocked_out_userproblem_userperformance_glitc",
@@ -31,42 +31,6 @@
     "dataTest": "username",
     "name": "user-name",
     "value": "standard_user"
-  },
-  {
-    "type": "click",
-    "id": null,
-    "dataTest": null,
-    "role": null,
-    "tag": "div",
-    "text": "Accepted usernames are:standard_userlocked_out_userproblem_userperformance_glitc",
-    "name": null
-  },
-  {
-    "type": "click",
-    "id": "login_credentials",
-    "dataTest": "login-credentials",
-    "role": null,
-    "tag": "div",
-    "text": "Accepted usernames are:standard_userlocked_out_userproblem_userperformance_glitc",
-    "name": null
-  },
-  {
-    "type": "click",
-    "id": null,
-    "dataTest": null,
-    "role": null,
-    "tag": "div",
-    "text": "Accepted usernames are:standard_userlocked_out_userproblem_userperformance_glitc",
-    "name": null
-  },
-  {
-    "type": "click",
-    "id": null,
-    "dataTest": "login-password",
-    "role": null,
-    "tag": "div",
-    "text": "Password for all users:secret_sauce",
-    "name": null
   },
   {
     "type": "click",
@@ -108,15 +72,6 @@
   },
   {
     "type": "click",
-    "id": "add-to-cart-sauce-labs-bike-light",
-    "dataTest": "add-to-cart-sauce-labs-bike-light",
-    "role": null,
-    "tag": "button",
-    "text": "Add to cart",
-    "name": "add-to-cart-sauce-labs-bike-light"
-  },
-  {
-    "type": "click",
     "id": "add-to-cart-sauce-labs-backpack",
     "dataTest": "add-to-cart-sauce-labs-backpack",
     "role": null,
@@ -135,12 +90,12 @@
   },
   {
     "type": "click",
-    "id": null,
-    "dataTest": "inventory-item-description",
+    "id": "add-to-cart-sauce-labs-bike-light",
+    "dataTest": "add-to-cart-sauce-labs-bike-light",
     "role": null,
-    "tag": "div",
-    "text": "Sauce Labs Fleece JacketIt's not every day that you come across a midweight quar",
-    "name": null
+    "tag": "button",
+    "text": "Add to cart",
+    "name": "add-to-cart-sauce-labs-bike-light"
   },
   {
     "type": "click",
@@ -152,35 +107,35 @@
     "name": "add-to-cart-sauce-labs-fleece-jacket"
   },
   {
+    "type": "click",
+    "id": "add-to-cart-test.allthethings()-t-shirt-(red)",
+    "dataTest": "add-to-cart-test.allthethings()-t-shirt-(red)",
+    "role": null,
+    "tag": "button",
+    "text": "Add to cart",
+    "name": "add-to-cart-test.allthethings()-t-shirt-(red)"
+  },
+  {
+    "type": "click",
+    "id": "add-to-cart-sauce-labs-onesie",
+    "dataTest": "add-to-cart-sauce-labs-onesie",
+    "role": null,
+    "tag": "button",
+    "text": "Add to cart",
+    "name": "add-to-cart-sauce-labs-onesie"
+  },
+  {
     "type": "goto",
     "url": "https://www.saucedemo.com/cart.html"
   },
   {
     "type": "click",
     "id": null,
-    "dataTest": "shopping-cart-badge",
+    "dataTest": "shopping-cart-link",
     "role": null,
-    "tag": "span",
-    "text": "4",
+    "tag": "a",
+    "text": "6",
     "name": null
-  },
-  {
-    "type": "click",
-    "id": "remove-sauce-labs-bike-light",
-    "dataTest": "remove-sauce-labs-bike-light",
-    "role": null,
-    "tag": "button",
-    "text": "Remove",
-    "name": "remove-sauce-labs-bike-light"
-  },
-  {
-    "type": "click",
-    "id": "remove-sauce-labs-bolt-t-shirt",
-    "dataTest": "remove-sauce-labs-bolt-t-shirt",
-    "role": null,
-    "tag": "button",
-    "text": "Remove",
-    "name": "remove-sauce-labs-bolt-t-shirt"
   },
   {
     "type": "goto",
@@ -209,70 +164,114 @@
     "id": "first-name",
     "dataTest": "firstName",
     "name": "firstName",
-    "value": "a"
+    "value": "k"
   },
   {
     "type": "fill",
     "id": "first-name",
     "dataTest": "firstName",
     "name": "firstName",
-    "value": "an"
+    "value": "ka"
   },
   {
     "type": "fill",
     "id": "first-name",
     "dataTest": "firstName",
     "name": "firstName",
-    "value": "ann"
+    "value": "kar"
   },
   {
     "type": "fill",
     "id": "first-name",
     "dataTest": "firstName",
     "name": "firstName",
-    "value": "anna"
+    "value": "kare"
+  },
+  {
+    "type": "fill",
+    "id": "first-name",
+    "dataTest": "firstName",
+    "name": "firstName",
+    "value": "karen"
+  },
+  {
+    "type": "fill",
+    "id": "first-name",
+    "dataTest": "firstName",
+    "name": "firstName",
+    "value": "karen "
   },
   {
     "type": "fill",
     "id": "last-name",
     "dataTest": "lastName",
     "name": "lastName",
-    "value": "f"
+    "value": "R"
   },
   {
     "type": "fill",
     "id": "last-name",
     "dataTest": "lastName",
     "name": "lastName",
-    "value": "fe"
+    "value": "Ro"
   },
   {
     "type": "fill",
     "id": "last-name",
     "dataTest": "lastName",
     "name": "lastName",
-    "value": "fer"
+    "value": "Rod"
   },
   {
     "type": "fill",
     "id": "last-name",
     "dataTest": "lastName",
     "name": "lastName",
-    "value": "ferm"
+    "value": "Rodr"
   },
   {
     "type": "fill",
     "id": "last-name",
     "dataTest": "lastName",
     "name": "lastName",
-    "value": "fermi"
+    "value": "Rodri"
   },
   {
     "type": "fill",
     "id": "last-name",
     "dataTest": "lastName",
     "name": "lastName",
-    "value": "fermin"
+    "value": "Rodrig"
+  },
+  {
+    "type": "fill",
+    "id": "last-name",
+    "dataTest": "lastName",
+    "name": "lastName",
+    "value": "Rodrigu"
+  },
+  {
+    "type": "fill",
+    "id": "last-name",
+    "dataTest": "lastName",
+    "name": "lastName",
+    "value": "Rodrigue"
+  },
+  {
+    "type": "fill",
+    "id": "last-name",
+    "dataTest": "lastName",
+    "name": "lastName",
+    "value": "Rodriguez"
+  },
+  {
+    "type": "click",
+    "id": "postal-code",
+    "dataTest": "postalCode",
+    "role": null,
+    "tag": "input",
+    "text": null,
+    "name": "postalCode"
   },
   {
     "type": "fill",
@@ -317,28 +316,15 @@
   },
   {
     "type": "goto",
-    "url": "https://www.saucedemo.com/checkout-complete.html"
-  },
-  {
-    "type": "click",
-    "id": "finish",
-    "dataTest": "finish",
-    "role": null,
-    "tag": "button",
-    "text": "Finish",
-    "name": "finish"
-  },
-  {
-    "type": "goto",
     "url": "https://www.saucedemo.com/inventory.html"
   },
   {
     "type": "click",
-    "id": "back-to-products",
-    "dataTest": "back-to-products",
+    "id": "cancel",
+    "dataTest": "cancel",
     "role": null,
     "tag": "button",
-    "text": "Back Home",
-    "name": "back-to-products"
+    "text": "Cancel",
+    "name": "cancel"
   }
 ]
