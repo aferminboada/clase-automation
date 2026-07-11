@@ -8,8 +8,9 @@ export class CheckoutPage {
   readonly lastNameInput:  Locator;
   readonly postalCodeInput:Locator;
   readonly continueButton: Locator;
-  readonly finishButton:   Locator;
-  readonly backHomeButton: Locator;
+  readonly finishButton:    Locator;
+  readonly backHomeButton:  Locator;
+  readonly cancelButton:    Locator;
 
   // ── Constructor ──────────────────────────────
   constructor(page: Page) {
@@ -20,6 +21,7 @@ export class CheckoutPage {
     this.continueButton  = page.locator('[data-test="continue"]');
     this.finishButton    = page.locator('[data-test="finish"]');
     this.backHomeButton  = page.locator('[data-test="back-to-products"]');
+    this.cancelButton    = page.locator('[data-test="cancel"]');
   }
 
   // ── Métodos ──────────────────────────────────

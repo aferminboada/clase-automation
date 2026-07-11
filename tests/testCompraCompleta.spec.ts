@@ -4,6 +4,38 @@ import { InventoryPage }       from '../page/InventoryPage';
 import { CartPage }            from '../page/CartPage';
 import { CheckoutPage }        from '../page/CheckoutPage';
 
+test('cancelar checkout: vuelve al carrito al cancelar el formulario de envío', async ({ page }) => {
+  const loginPage     = new SauceDemoLoginPage(page);
+  const inventoryPage = new InventoryPage(page);
+  const cartPage      = new CartPage(page);
+  const checkoutPage  = new CheckoutPage(page);
+
+  // ── LOGIN ─────────────────────────────────────
+  await loginPage.goto();
+  await loginPage.login('standard_user', 'secret_sauce');
+  await page.waitForURL('**/inventory.html');
+
+  // ── AGREGAR PRODUCTO Y IR AL CARRITO ──────────
+  await inventoryPage.addBackpack.click();
+  await inventoryPage.irAlCarrito();
+  await page.waitForURL('**/cart.html');
+
+  // ── IR AL CHECKOUT ────────────────────────────
+  await cartPage.irAlCheckout();
+  await page.waitForURL('**/checkout-step-one.html');
+
+  // ── LLENAR FORMULARIO Y CONTINUAR ────────────
+  await checkoutPage.llenarDatos('anna', 'fermin', '1428');
+  await page.waitForURL('**/checkout-step-two.html');
+
+  // ── CANCELAR EN EL RESUMEN DE ORDEN ──────────
+  await checkoutPage.cancelButton.click();
+
+  // ── VERIFICAR QUE SE CANCELÓ ─────────────────
+  await expect(page).toHaveURL(/.*inventory/);
+  await expect(page).not.toHaveURL(/.*checkout/);
+});
+
 test('compra completa: login, agregar productos, checkout y finalizar orden', async ({ page }) => {
   const loginPage    = new SauceDemoLoginPage(page);
   const inventoryPage = new InventoryPage(page);
