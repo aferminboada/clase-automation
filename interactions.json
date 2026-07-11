@@ -1,0 +1,344 @@
+[
+  {
+    "type": "goto",
+    "url": "https://www.saucedemo.com/"
+  },
+  {
+    "type": "goto",
+    "url": "https://www.saucedemo.com/"
+  },
+  {
+    "type": "click",
+    "id": "login_credentials",
+    "dataTest": "login-credentials",
+    "role": null,
+    "tag": "div",
+    "text": "Accepted usernames are:standard_userlocked_out_userproblem_userperformance_glitc",
+    "name": null
+  },
+  {
+    "type": "click",
+    "id": "user-name",
+    "dataTest": "username",
+    "role": null,
+    "tag": "input",
+    "text": null,
+    "name": "user-name"
+  },
+  {
+    "type": "fill",
+    "id": "user-name",
+    "dataTest": "username",
+    "name": "user-name",
+    "value": "standard_user"
+  },
+  {
+    "type": "click",
+    "id": null,
+    "dataTest": null,
+    "role": null,
+    "tag": "div",
+    "text": "Accepted usernames are:standard_userlocked_out_userproblem_userperformance_glitc",
+    "name": null
+  },
+  {
+    "type": "click",
+    "id": "login_credentials",
+    "dataTest": "login-credentials",
+    "role": null,
+    "tag": "div",
+    "text": "Accepted usernames are:standard_userlocked_out_userproblem_userperformance_glitc",
+    "name": null
+  },
+  {
+    "type": "click",
+    "id": null,
+    "dataTest": null,
+    "role": null,
+    "tag": "div",
+    "text": "Accepted usernames are:standard_userlocked_out_userproblem_userperformance_glitc",
+    "name": null
+  },
+  {
+    "type": "click",
+    "id": null,
+    "dataTest": "login-password",
+    "role": null,
+    "tag": "div",
+    "text": "Password for all users:secret_sauce",
+    "name": null
+  },
+  {
+    "type": "click",
+    "id": null,
+    "dataTest": "login-password",
+    "role": null,
+    "tag": "div",
+    "text": "Password for all users:secret_sauce",
+    "name": null
+  },
+  {
+    "type": "click",
+    "id": "password",
+    "dataTest": "password",
+    "role": null,
+    "tag": "input",
+    "text": null,
+    "name": "password"
+  },
+  {
+    "type": "fill",
+    "id": "password",
+    "dataTest": "password",
+    "name": "password",
+    "value": "secret_sauce"
+  },
+  {
+    "type": "goto",
+    "url": "https://www.saucedemo.com/inventory.html"
+  },
+  {
+    "type": "click",
+    "id": "login-button",
+    "dataTest": "login-button",
+    "role": null,
+    "tag": "input",
+    "text": null,
+    "name": "login-button"
+  },
+  {
+    "type": "click",
+    "id": "add-to-cart-sauce-labs-bike-light",
+    "dataTest": "add-to-cart-sauce-labs-bike-light",
+    "role": null,
+    "tag": "button",
+    "text": "Add to cart",
+    "name": "add-to-cart-sauce-labs-bike-light"
+  },
+  {
+    "type": "click",
+    "id": "add-to-cart-sauce-labs-backpack",
+    "dataTest": "add-to-cart-sauce-labs-backpack",
+    "role": null,
+    "tag": "button",
+    "text": "Add to cart",
+    "name": "add-to-cart-sauce-labs-backpack"
+  },
+  {
+    "type": "click",
+    "id": "add-to-cart-sauce-labs-bolt-t-shirt",
+    "dataTest": "add-to-cart-sauce-labs-bolt-t-shirt",
+    "role": null,
+    "tag": "button",
+    "text": "Add to cart",
+    "name": "add-to-cart-sauce-labs-bolt-t-shirt"
+  },
+  {
+    "type": "click",
+    "id": null,
+    "dataTest": "inventory-item-description",
+    "role": null,
+    "tag": "div",
+    "text": "Sauce Labs Fleece JacketIt's not every day that you come across a midweight quar",
+    "name": null
+  },
+  {
+    "type": "click",
+    "id": "add-to-cart-sauce-labs-fleece-jacket",
+    "dataTest": "add-to-cart-sauce-labs-fleece-jacket",
+    "role": null,
+    "tag": "button",
+    "text": "Add to cart",
+    "name": "add-to-cart-sauce-labs-fleece-jacket"
+  },
+  {
+    "type": "goto",
+    "url": "https://www.saucedemo.com/cart.html"
+  },
+  {
+    "type": "click",
+    "id": null,
+    "dataTest": "shopping-cart-badge",
+    "role": null,
+    "tag": "span",
+    "text": "4",
+    "name": null
+  },
+  {
+    "type": "click",
+    "id": "remove-sauce-labs-bike-light",
+    "dataTest": "remove-sauce-labs-bike-light",
+    "role": null,
+    "tag": "button",
+    "text": "Remove",
+    "name": "remove-sauce-labs-bike-light"
+  },
+  {
+    "type": "click",
+    "id": "remove-sauce-labs-bolt-t-shirt",
+    "dataTest": "remove-sauce-labs-bolt-t-shirt",
+    "role": null,
+    "tag": "button",
+    "text": "Remove",
+    "name": "remove-sauce-labs-bolt-t-shirt"
+  },
+  {
+    "type": "goto",
+    "url": "https://www.saucedemo.com/checkout-step-one.html"
+  },
+  {
+    "type": "click",
+    "id": "checkout",
+    "dataTest": "checkout",
+    "role": null,
+    "tag": "button",
+    "text": "Checkout",
+    "name": "checkout"
+  },
+  {
+    "type": "click",
+    "id": "first-name",
+    "dataTest": "firstName",
+    "role": null,
+    "tag": "input",
+    "text": null,
+    "name": "firstName"
+  },
+  {
+    "type": "fill",
+    "id": "first-name",
+    "dataTest": "firstName",
+    "name": "firstName",
+    "value": "a"
+  },
+  {
+    "type": "fill",
+    "id": "first-name",
+    "dataTest": "firstName",
+    "name": "firstName",
+    "value": "an"
+  },
+  {
+    "type": "fill",
+    "id": "first-name",
+    "dataTest": "firstName",
+    "name": "firstName",
+    "value": "ann"
+  },
+  {
+    "type": "fill",
+    "id": "first-name",
+    "dataTest": "firstName",
+    "name": "firstName",
+    "value": "anna"
+  },
+  {
+    "type": "fill",
+    "id": "last-name",
+    "dataTest": "lastName",
+    "name": "lastName",
+    "value": "f"
+  },
+  {
+    "type": "fill",
+    "id": "last-name",
+    "dataTest": "lastName",
+    "name": "lastName",
+    "value": "fe"
+  },
+  {
+    "type": "fill",
+    "id": "last-name",
+    "dataTest": "lastName",
+    "name": "lastName",
+    "value": "fer"
+  },
+  {
+    "type": "fill",
+    "id": "last-name",
+    "dataTest": "lastName",
+    "name": "lastName",
+    "value": "ferm"
+  },
+  {
+    "type": "fill",
+    "id": "last-name",
+    "dataTest": "lastName",
+    "name": "lastName",
+    "value": "fermi"
+  },
+  {
+    "type": "fill",
+    "id": "last-name",
+    "dataTest": "lastName",
+    "name": "lastName",
+    "value": "fermin"
+  },
+  {
+    "type": "fill",
+    "id": "postal-code",
+    "dataTest": "postalCode",
+    "name": "postalCode",
+    "value": "1"
+  },
+  {
+    "type": "fill",
+    "id": "postal-code",
+    "dataTest": "postalCode",
+    "name": "postalCode",
+    "value": "14"
+  },
+  {
+    "type": "fill",
+    "id": "postal-code",
+    "dataTest": "postalCode",
+    "name": "postalCode",
+    "value": "142"
+  },
+  {
+    "type": "fill",
+    "id": "postal-code",
+    "dataTest": "postalCode",
+    "name": "postalCode",
+    "value": "1428"
+  },
+  {
+    "type": "goto",
+    "url": "https://www.saucedemo.com/checkout-step-two.html"
+  },
+  {
+    "type": "click",
+    "id": "continue",
+    "dataTest": "continue",
+    "role": null,
+    "tag": "input",
+    "text": null,
+    "name": "continue"
+  },
+  {
+    "type": "goto",
+    "url": "https://www.saucedemo.com/checkout-complete.html"
+  },
+  {
+    "type": "click",
+    "id": "finish",
+    "dataTest": "finish",
+    "role": null,
+    "tag": "button",
+    "text": "Finish",
+    "name": "finish"
+  },
+  {
+    "type": "goto",
+    "url": "https://www.saucedemo.com/inventory.html"
+  },
+  {
+    "type": "click",
+    "id": "back-to-products",
+    "dataTest": "back-to-products",
+    "role": null,
+    "tag": "button",
+    "text": "Back Home",
+    "name": "back-to-products"
+  }
+]
